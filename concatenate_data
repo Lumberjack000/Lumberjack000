@@ -1,0 +1,9 @@
+# 1. име, фамилия, възраст и град
+# 2. печатане: "You are {first_name} {last_name}, a {age}-years old person from {town}."
+
+name = input()
+last_name = input()
+age = int(input())
+town = input()
+
+print(f"You are {name} {last_name}, a {age}-years old person from {town}.")
