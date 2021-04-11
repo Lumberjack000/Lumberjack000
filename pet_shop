@@ -1,0 +1,13 @@
+# 1. Брой на кучета - цяло число
+# 2. Брой на останалите животни - цяло число
+# 3. Цена за опаковка храна на кучета
+# 4. Цена за опаковка храна на други животни
+# 5. Изчисление на разходи спрямо брой кучета и други животни
+# 6. Отпечатване на крайна сума/резултат
+
+dog_count = int(input())
+other_animal_count = int(input())
+price_piece_dog_food = float(2.50)
+price_piece_other_animal_food = float(4.00)
+total_price = dog_count * price_piece_dog_food + other_animal_count * price_piece_other_animal_food
+print(total_price)
