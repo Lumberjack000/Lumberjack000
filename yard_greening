@@ -1,0 +1,15 @@
+# 1. Кв.метър = 7.61лв със ДДС
+# 2. Кв.метри, които ще бъдат озеленени - реално число
+# 3. Крайна цена(без отстъпка)
+# 4. Отстъпка
+# 5. Крайна цена (с отстъпка)
+# 6. Отпечатване на крайна цена
+# 7. Отпечатване на отстъпка
+
+square_meter_price = float(7.61)
+square_meters = float(input())
+final_price_no_discount = square_meters * square_meter_price
+discount = final_price_no_discount * 0.18
+final_price = final_price_no_discount - discount
+print(final_price)
+print(discount)
