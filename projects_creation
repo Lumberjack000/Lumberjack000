@@ -1,0 +1,11 @@
+# 1. Часове нужни за един проект
+# 2. Име на архитекта - текст
+# 3. Брой на проектите - цяло число
+# 4. Изчисление на часове за определеният брой проекти
+# 5. Извеждане на резултат
+
+architect_name = input()
+project_count = int(input())
+hours_per_project = 3 * project_count
+
+print(f"The architect {architect_name} will need {hours_per_project} hours to complete {project_count} project/s.")
