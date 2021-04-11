@@ -1,0 +1,7 @@
+# 1. Input a name
+# 2. Standard greeting pattern
+# 3. Print output
+
+name = input()
+greeting = "Hello, " + name + "!"
+print(greeting)
